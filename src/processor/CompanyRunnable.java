@@ -10,18 +10,19 @@ import java.io.IOException;
  * To change this template use File | Settings | File Templates.
  */
 public class CompanyRunnable implements Runnable {
-    private CompanyFileReader reader = null;
-    private CompanyFileWriter writer = null;
 
-    public CompanyRunnable(CompanyFileReader reader, CompanyFileWriter writer)  {
-        this.reader = reader;
+    private CompanyFileWriter writer = null;
+    String line = null;
+
+    public CompanyRunnable(String line, CompanyFileWriter writer)  {
+        this.line = line;
         this.writer = writer;
     }
 
     public void run(){
-        String line = null;
+        //Split the line and process the contents
         try{
-            line = CompanyFileReader.readNext();
+
             String[] components= line.split("\t");
             Company company = new Company();
             company.setField1(components[0]);
