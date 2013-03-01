@@ -1,5 +1,7 @@
 package processor;
 
+import org.apache.commons.io.IOUtils;
+
 import java.io.*;
 import java.util.concurrent.*;
 
@@ -64,12 +66,15 @@ public class Main {
             while(!produceExecutor.isTerminated() || !consumeExecutor.isTerminated()){
 
             }
-            reader.close();
-            writer.close();
+
             System.out.println("All threads terminated");
 
-        } catch( Exception ex){
+        } catch (IOException ex){
             ex.printStackTrace();
+
+        } finally{
+            IOUtils.closeQuietly(reader);
+            IOUtils.closeQuietly(writer);
         }
 
        //generateSourceFile(1000000);
