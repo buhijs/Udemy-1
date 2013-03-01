@@ -15,7 +15,7 @@ public class AsyncWriteConsumer<T> implements Runnable {
 
     private OutputStream writer;
     private BlockingQueue<T> readQ;
-    private boolean stopSignal = false;
+    private volatile boolean stopSignal = false;
 
     public AsyncWriteConsumer(OutputStream writer, BlockingQueue<T> readQ){
 
@@ -41,7 +41,8 @@ public class AsyncWriteConsumer<T> implements Runnable {
 
     private void write() throws IOException {
         if(!readQ.isEmpty()) {
-            writer.write((readQ.poll().toString() + "\n").getBytes());
+            writer.write((((T)readQ.poll()).toString() + "\n").getBytes());
+            //writer.write((((T)readQ.poll()).toString() + "\n").getBytes());
             writer.flush();
         }
     }

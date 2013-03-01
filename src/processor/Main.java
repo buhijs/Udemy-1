@@ -45,7 +45,7 @@ public class Main {
 
             reader = new FileInputStream(new File(SOURCE_FILE));
             writer = new FileOutputStream(new File(DEST_FILE));
-            BlockingQueue<Company> writeQ= new ArrayBlockingQueue<Company>(10);
+            BlockingQueue<SerialReadProducer> writeQ= new ArrayBlockingQueue<SerialReadProducer>(10);
 
             //Start the consumer
             Runnable consumerWorker = new AsyncWriteConsumer(writer, writeQ);
@@ -54,7 +54,7 @@ public class Main {
             String line;
             BufferedReader br = new BufferedReader(new InputStreamReader(reader));
             while((line = br.readLine()) != null){
-                Runnable worker = new CompanyProducer(line, writeQ);
+                Runnable worker = new LineProcessor(line, writeQ, new CompanySerialReadProducer(line));
                 produceExecutor.execute(worker);
              }
 

@@ -13,7 +13,6 @@ import java.util.regex.Pattern;
  * To change this template use File | Settings | File Templates.
  */
 public class Company {
-    private  String separator="\t";
     private  String field1;
     private  String field2;
     private  String field3;
@@ -77,10 +76,6 @@ public class Company {
         }
 
         return company;
-    }
-
-    public String toString(Character separator) {
-         return field1+separator+field2+separator+field3+separator+field4;
     }
 
     public void inflate(String line){
