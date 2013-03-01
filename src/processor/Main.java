@@ -1,42 +1,71 @@
 package processor;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.util.concurrent.*;
 
 public class Main {
-    private static String SOURCE_FILE = "/Users/yashr/sink/source.tsv";
-    private static String DEST_FILE = "/Users/yashr/sink/dest.tsv";
-    private static int NTHREADS = 3;
+    private static String SOURCE_FILE = "/Users/yasha/sink/source.tsv";
+    private static String DEST_FILE = "/Users/yasha/sink/dest.tsv";
+    private static int PRODUCER_NTHREADS = 4;
 
     public static void main(String[] args) {
 
-        CompanyFileWriter writer = null;
+        OutputStream writer = null;
+        InputStream reader = null;
         try{
 
-            //ExecutorService executor = Executors.newFixedThreadPool(NTHREADS);
-            ThreadPoolExecutor executor = new ThreadPoolExecutor(4, 4, 10000, TimeUnit.MILLISECONDS, new ArrayBlockingQueue<Runnable>(10));
-            executor.setRejectedExecutionHandler(new ThreadPoolExecutor.CallerRunsPolicy());
+            ExecutorService consumeExecutor = Executors.newSingleThreadExecutor();
+            ThreadPoolExecutor produceExecutor = new ThreadPoolExecutor(PRODUCER_NTHREADS, PRODUCER_NTHREADS, 10000, TimeUnit.MILLISECONDS, new ArrayBlockingQueue<Runnable>(10)){
+                protected void afterExecute(Runnable r, Throwable t) {
+                    super.afterExecute(r, t);
+                    if (t == null && r instanceof Future<?>) {
+                        try {
+                            Future<?> future = (Future<?>) r;
+                            if (future.isDone())
+                                future.get();
+                        } catch (CancellationException ce) {
+                            t = ce;
+                        } catch (ExecutionException ee) {
+                            t = ee.getCause();
+                        } catch (InterruptedException ie) {
+                            Thread.currentThread().interrupt(); // ignore/reset
+                        }
+                    }
+                    if (t != null){
+                        System.out.println(t);
+                        this.shutdownNow();
+                    }
 
-            writer = new CompanyFileWriter(DEST_FILE);
+                }
+
+            };
+            produceExecutor.setRejectedExecutionHandler(new ThreadPoolExecutor.CallerRunsPolicy());
+
+            reader = new FileInputStream(new File(SOURCE_FILE));
+            writer = new FileOutputStream(new File(DEST_FILE));
+            BlockingQueue<Company> writeQ= new ArrayBlockingQueue<Company>(10);
+
+            //Start the consumer
+            Runnable consumerWorker = new AsyncWriteConsumer(writer, writeQ);
+            consumeExecutor.execute(consumerWorker);
 
             String line;
-            BufferedReader br = new BufferedReader(new FileReader(SOURCE_FILE));
-
-
+            BufferedReader br = new BufferedReader(new InputStreamReader(reader));
             while((line = br.readLine()) != null){
-                Runnable worker = new CompanyRunnable(line, writer);
-                executor.execute(worker);
+                Runnable worker = new CompanyProducer(line, writeQ);
+                produceExecutor.execute(worker);
              }
 
 
-            executor.shutdown();
-            while(!executor.isTerminated()){
+            produceExecutor.shutdown();
+            ((AsyncWriteConsumer)consumerWorker).stop();
+            consumeExecutor.shutdown();
+
+            while(!produceExecutor.isTerminated() || !consumeExecutor.isTerminated()){
 
             }
-
-            writer.closeFile();
+            reader.close();
+            writer.close();
             System.out.println("All threads terminated");
 
         } catch( Exception ex){
@@ -47,14 +76,6 @@ public class Main {
     }
 
     public static void generateSourceFile(int lines){
-                try {
-            CompanyFileWriter writer = new CompanyFileWriter(SOURCE_FILE);
-            for(int i=0;i<lines;i++){
-                writer.write("field1\tfield2\tfield3\tfield4") ;
-            }
-            writer.closeFile();
-        } catch (IOException e) {
-            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
-        }
+
     }
 }

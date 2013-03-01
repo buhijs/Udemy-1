@@ -13,24 +13,23 @@ import java.util.regex.Pattern;
  * To change this template use File | Settings | File Templates.
  */
 public class Company {
+    private  String separator="\t";
     private  String field1;
     private  String field2;
     private  String field3;
     private  String field4;
     private static final List<Pattern> REGEX_PATTERNS = new ArrayList<Pattern>(
-            Arrays.asList(Pattern.compile("asbd"),
-                    Pattern.compile("asbd"),
-//                    Pattern.compile("as|f|as|g|we|g|sdf|gas|asdf|agsD|hsdfg|jgdfh|fgh|wrty|dkh|fghS|DFg|fdj|DjgdfgJD|gjdGFH|dfgh||SDFGsdfgsfdgsdfgsdfgsdfgsdfg|sdfgsfdgsdgfsdfg|sfdg|sdfgsdfg|SfgsFD|Gsdfg|sdfg|Sdfg|sdfg"),
-//                    Pattern.compile("as|f|as|g|we|g|sdf|gas|asdf|agsD|hsdfg|jgdfh|fgh|wrty|dkh|fghS|DFg|fdj|DjgdfgJD|gjdGFH|dfgh||SDFGsdfgsfdgsdfgsdfgsdfgsdfg|sdfgsfdgsdgfsdfg|sfdg|sdfgsdfg|SfgsFD|Gsdfg|sdfg|Sdfg|sdfg"),
-//                    Pattern.compile("as|f|as|g|we|g|sdf|gas|asdf|agsD|hsdfg|jgdfh|fgh|wrty|dkh|fghS|DFg|fdj|DjgdfgJD|gjdGFH|dfgh||SDFGsdfgsfdgsdfgsdfgsdfgsdfg|sdfgsfdgsdgfsdfg|sfdg|sdfgsdfg|SfgsFD|Gsdfg|sdfg|Sdfg|sdfg") ,
-//                    Pattern.compile("as|f|as|g|we|g|sdf|gas|asdf|agsD|hsdfg|jgdfh|fgh|wrty|dkh|fghS|DFg|fdj|DjgdfgJD|gjdGFH|dfgh||SDFGsdfgsfdgsdfgsdfgsdfgsdfg|sdfgsfdgsdgfsdfg|sfdg|sdfgsdfg|SfgsFD|Gsdfg|sdfg|Sdfg|sdfg")  ,
-//                    Pattern.compile("as|f|as|g|we|g|sdf|gas|asdf|agsD|hsdfg|jgdfh|fgh|wrty|dkh|fghS|DFg|fdj|DjgdfgJD|gjdGFH|dfgh||SDFGsdfgsfdgsdfgsdfgsdfgsdfg|sdfgsfdgsdgfsdfg|sfdg|sdfgsdfg|SfgsFD|Gsdfg|sdfg|Sdfg|sdfg"),
-//                    Pattern.compile("as|f|as|g|we|g|sdf|gas|asdf|agsD|hsdfg|jgdfh|fgh|wrty|dkh|fghS|DFg|fdj|DjgdfgJD|gjdGFH|dfgh||SDFGsdfgsfdgsdfgsdfgsdfgsdfg|sdfgsfdgsdgfsdfg|sfdg|sdfgsdfg|SfgsFD|Gsdfg|sdfg|Sdfg|sdfg"),
-//                    Pattern.compile("as|f|as|g|we|g|sdf|gas|asdf|agsD|hsdfg|jgdfh|fgh|wrty|dkh|fghS|DFg|fdj|DjgdfgJD|gjdGFH|dfgh||SDFGsdfgsfdgsdfgsdfgsdfgsdfg|sdfgsfdgsdgfsdfg|sfdg|sdfgsdfg|SfgsFD|Gsdfg|sdfg|Sdfg|sdfg"),
-//                    Pattern.compile("as|f|as|g|we|g|sdf|gas|asdf|agsD|hsdfg|jgdfh|fgh|wrty|dkh|fghS|DFg|fdj|DjgdfgJD|gjdGFH|dfgh||SDFGsdfgsfdgsdfgsdfgsdfgsdfg|sdfgsfdgsdgfsdfg|sfdg|sdfgsdfg|SfgsFD|Gsdfg|sdfg|Sdfg|sdfg"),
-//                    Pattern.compile("as|f|as|g|we|g|sdf|gas|asdf|agsD|hsdfg|jgdfh|fgh|wrty|dkh|fghS|DFg|fdj|DjgdfgJD|gjdGFH|dfgh||SDFGsdfgsfdgsdfgsdfgsdfgsdfg|sdfgsfdgsdgfsdfg|sfdg|sdfgsdfg|SfgsFD|Gsdfg|sdfg|Sdfg|sdfg"),
-                    Pattern.compile("as|f|as|g|we|g|sdf|gas|asdf|agsD|hsdfg|jgdfh|fgh|wrty|dkh|fghS|DFg|fdj|DjgdfgJD|gjdGFH|dfgh||SDFGsdfgsfdgsdfgsdfgsdfgsdfg|sdfgsfdgsdgfsdfg|sfdg|sdfgsdfg|SfgsFD|Gsdfg|sdfg|Sdfg|sdfg")
-            ));
+            Arrays.asList(Pattern.compile("asbd")
+//                    ,Pattern.compile("as|f|as|g|we|g|sdf|gas|asdf|agsD|hsdfg|jgdfh|fgh|wrty|dkh|fghS|DFg|fdj|DjgdfgJD|gjdGFH|dfgh||SDFGsdfgsfdgsdfgsdfgsdfgsdfg|sdfgsfdgsdgfsdfg|sfdg|sdfgsdfg|SfgsFD|Gsdfg|sdfg|Sdfg|sdfg")
+//                    ,Pattern.compile("as|f|as|g|we|g|sdf|gas|asdf|agsD|hsdfg|jgdfh|fgh|wrty|dkh|fghS|DFg|fdj|DjgdfgJD|gjdGFH|dfgh||SDFGsdfgsfdgsdfgsdfgsdfgsdfg|sdfgsfdgsdgfsdfg|sfdg|sdfgsdfg|SfgsFD|Gsdfg|sdfg|Sdfg|sdfg")
+//                    ,Pattern.compile("as|f|as|g|we|g|sdf|gas|asdf|agsD|hsdfg|jgdfh|fgh|wrty|dkh|fghS|DFg|fdj|DjgdfgJD|gjdGFH|dfgh||SDFGsdfgsfdgsdfgsdfgsdfgsdfg|sdfgsfdgsdgfsdfg|sfdg|sdfgsdfg|SfgsFD|Gsdfg|sdfg|Sdfg|sdfg")
+//                    ,Pattern.compile("as|f|as|g|we|g|sdf|gas|asdf|agsD|hsdfg|jgdfh|fgh|wrty|dkh|fghS|DFg|fdj|DjgdfgJD|gjdGFH|dfgh||SDFGsdfgsfdgsdfgsdfgsdfgsdfg|sdfgsfdgsdgfsdfg|sfdg|sdfgsdfg|SfgsFD|Gsdfg|sdfg|Sdfg|sdfg")
+//                    ,Pattern.compile("as|f|as|g|we|g|sdf|gas|asdf|agsD|hsdfg|jgdfh|fgh|wrty|dkh|fghS|DFg|fdj|DjgdfgJD|gjdGFH|dfgh||SDFGsdfgsfdgsdfgsdfgsdfgsdfg|sdfgsfdgsdgfsdfg|sfdg|sdfgsdfg|SfgsFD|Gsdfg|sdfg|Sdfg|sdfg")
+//                    ,Pattern.compile("as|f|as|g|we|g|sdf|gas|asdf|agsD|hsdfg|jgdfh|fgh|wrty|dkh|fghS|DFg|fdj|DjgdfgJD|gjdGFH|dfgh||SDFGsdfgsfdgsdfgsdfgsdfgsdfg|sdfgsfdgsdgfsdfg|sfdg|sdfgsdfg|SfgsFD|Gsdfg|sdfg|Sdfg|sdfg")
+//                    ,Pattern.compile("as|f|as|g|we|g|sdf|gas|asdf|agsD|hsdfg|jgdfh|fgh|wrty|dkh|fghS|DFg|fdj|DjgdfgJD|gjdGFH|dfgh||SDFGsdfgsfdgsdfgsdfgsdfgsdfg|sdfgsfdgsdgfsdfg|sfdg|sdfgsdfg|SfgsFD|Gsdfg|sdfg|Sdfg|sdfg")
+//                    ,Pattern.compile("as|f|as|g|we|g|sdf|gas|asdf|agsD|hsdfg|jgdfh|fgh|wrty|dkh|fghS|DFg|fdj|DjgdfgJD|gjdGFH|dfgh||SDFGsdfgsfdgsdfgsdfgsdfgsdfg|sdfgsfdgsdgfsdfg|sfdg|sdfgsdfg|SfgsFD|Gsdfg|sdfg|Sdfg|sdfg")
+//
+           ));
 
     public  String getField1() {
         return field1;
@@ -80,7 +79,17 @@ public class Company {
         return company;
     }
 
-    public String toString() {
-         return field1+"\t"+field2+"\t"+field3+"\t"+field4;
+    public String toString(Character separator) {
+         return field1+separator+field2+separator+field3+separator+field4;
+    }
+
+    public void inflate(String line){
+        //Split the line and process the contents
+        String[] components= line.split("\t");
+        this.setField1(components[0]);
+        this.setField2(components[1]);
+        this.setField3(components[2]);
+        this.setField4(components[3]);
+
     }
 }
