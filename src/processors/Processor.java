@@ -5,7 +5,8 @@ package processors;
  * User: yasha
  * Date: 3/7/13
  * Time: 11:55 PM
- * To change this template use File | Settings | File Templates.
+ * An interfacet to Processor
+ * @param <V> the type of object that needs to be processed
  */
 public interface Processor<V> {
     public V process(V objectToProcess);

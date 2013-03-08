@@ -2,31 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5dc8487b-977c-49f3-93f0-aa6604c66bf6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/processors/CompanyProcessor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/decoders/CompanyToBase64Decoder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/decoders/CompanyToLineDecoder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/decoders/Decoder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/encoders/Encoder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/encoders/LineToCompanyEncoder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/processors/Processor.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/processor/CompanySerialReadProducer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/processor/SerialReadProducer.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/processor/AsyncWriteConsumer.java" afterPath="$PROJECT_DIR$/src/processor/WriteProcessor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/processor/Company.java" afterPath="$PROJECT_DIR$/src/processor/Company.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/processor/LineProcessorRunnable.java" afterPath="$PROJECT_DIR$/src/processor/LineProcessorRunnable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/processor/Main.java" afterPath="$PROJECT_DIR$/src/processor/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/processors/CompanyProcessor.java" afterPath="$PROJECT_DIR$/src/processors/CompanyProcessor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/decoders/Decoder.java" afterPath="$PROJECT_DIR$/src/decoders/Decoder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/encoders/Encoder.java" afterPath="$PROJECT_DIR$/src/encoders/Encoder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/processors/Processor.java" afterPath="$PROJECT_DIR$/src/processors/Processor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/processor/ProcessorException.java" afterPath="$PROJECT_DIR$/src/processor/ProcessorException.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Udemy.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362726554958" ignored="false" />
+    <file path="/Dummy.txt" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362735830919" ignored="false" />
     <file path="/CompanyFileWriter.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1361247868505" ignored="false" />
     <file path="/CompanyRunnable.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1361760600253" ignored="false" />
     <file path="/CompanyFileReader.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1361260371085" ignored="false" />
     <file path="/blah.json" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1360827955777" ignored="false" />
-    <file path="/Main.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362733090380" ignored="false" />
+    <file path="/Main.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362735597244" ignored="false" />
     <file path="/Company.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362730937343" ignored="false" />
-    <file path="/a.dummy" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362700139656" ignored="false" />
+    <file path="/a.dummy" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362733953324" ignored="false" />
     <file path="$USER_HOME$/Documents/workspace/DemandbaseCleaningUtils/src/java/com/demandbase/etl/misc/EOLStockCleaner.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362103137233" ignored="false" />
     <file path="/EOLStockCleaner.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362106502968" ignored="false" />
     <file path="/CleaningUtils.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362104166761" ignored="false" />
@@ -38,7 +30,7 @@
     <file path="/AsyncReadProducer.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362131863500" ignored="false" />
     <file path="/ReadProducer.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362160949380" ignored="false" />
     <file path="/CompanyReadProducer.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362164585234" ignored="false" />
-    <file path="/Processor.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362729403056" ignored="false" />
+    <file path="/Processor.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362737242193" ignored="false" />
     <file path="/SerialReadProducer.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362164555045" ignored="false" />
     <file path="/CompanySerialReadProducer.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362164411537" ignored="false" />
     <file path="$USER_HOME$/Documents/workspace/DemandbaseCleaningUtils/sproc/Set SIDs.sql" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362434593670" ignored="false" />
@@ -72,14 +64,16 @@
     <file path="$USER_HOME$/Documents/workspace/DemandbaseCleaningUtils/sproc/Push Revenue Multipliers.sql" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362688090841" ignored="false" />
     <file path="$USER_HOME$/Documents/workspace/DemandbaseCleaningUtils/sproc/Report.sql" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362688400093" ignored="false" />
     <file path="$USER_HOME$/Documents/workspace/DemandbaseCleaningUtils/sproc/Set Hierarchy Size.sql" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362688614087" ignored="false" />
-    <file path="/Decoder.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362729416895" ignored="false" />
-    <file path="/Encoder.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362729428093" ignored="false" />
+    <file path="/Decoder.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362737131758" ignored="false" />
+    <file path="/Encoder.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362737165905" ignored="false" />
     <file path="/CompanyLineEncoder.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362727582203" ignored="false" />
     <file path="/CompanyLineDecoder.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362728195756" ignored="false" />
-    <file path="/CompanyProcessor.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362729514622" ignored="false" />
+    <file path="/CompanyProcessor.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362737259011" ignored="false" />
     <file path="/AtomicProcessor.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362729659168" ignored="false" />
     <file path="/LineProcessorRunnable.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362730514803" ignored="false" />
     <file path="/CompanyToSHA1Decoder.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362733035792" ignored="false" />
+    <file path="/ProcessorException.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362737018932" ignored="false" />
+    <file path="/ProcessorRunnable.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362735260325" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,16 +136,45 @@
       <file leaf-file-name="Encoder.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/encoders/Encoder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="36" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
+            <state line="8" column="52" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LineProcessorRunnable.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/processor/LineProcessorRunnable.java">
+      <file leaf-file-name="CompanyProcessor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/processors/CompanyProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="125" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0">
+            <state line="9" column="21" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Processor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/processors/Processor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="59" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProcessorRunnable.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/processor/ProcessorRunnable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="42" selection-start="1268" selection-end="1268" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProcessorException.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/processor/ProcessorException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="4" selection-start="188" selection-end="188" vertical-scroll-proportion="0.3">
               <folding />
             </state>
           </provider>
@@ -166,12 +189,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/processor/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="86" selection-start="2567" selection-end="2567" vertical-scroll-proportion="0.49281314">
+            <state line="97" column="44" selection-start="4161" selection-end="4161" vertical-scroll-proportion="-30.576923">
               <folding>
-                <element signature="e#2058#2066#0" expanded="true" />
+                <element signature="e#2327#2335#0" expanded="true" />
+                <element signature="e#2410#2418#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -188,19 +212,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Company.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/processor/Company.java">
+      <file leaf-file-name="WriteProcessorRunnable.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/processor/WriteProcessorRunnable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="66" selection-start="3247" selection-end="3247" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WriteProcessor.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/processor/WriteProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="29" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
+            <state line="13" column="37" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -211,16 +226,7 @@
       <file leaf-file-name="Decoder.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/decoders/Decoder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="28" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LineToCompanyEncoder.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/encoders/LineToCompanyEncoder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="8" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
+            <state line="8" column="0" selection-start="155" selection-end="278" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -244,13 +250,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/processor/SerialReadProducer.java" />
-        <option value="$PROJECT_DIR$/src/processor/AsyncWriteConsumer.java" />
-        <option value="$PROJECT_DIR$/src/processor/CompanyLineEncoder.java" />
-        <option value="$PROJECT_DIR$/src/processor/CompanyLineDecoder.java" />
-        <option value="$PROJECT_DIR$/src/processor/Decoder.java" />
-        <option value="$PROJECT_DIR$/src/processor/Encoder.java" />
-        <option value="$PROJECT_DIR$/src/processor/Processor.java" />
         <option value="$PROJECT_DIR$/src/processor/CompanyProcessor.java" />
         <option value="$PROJECT_DIR$/src/processor/AtomicProcessor.java" />
         <option value="$PROJECT_DIR$/src/processor/LineProcessorRunnable.java" />
@@ -259,7 +258,14 @@
         <option value="$PROJECT_DIR$/src/processor/CompanyToSHA1Decoder.java" />
         <option value="$PROJECT_DIR$/src/decoders/CompanyToSHA1Decoder.java" />
         <option value="$PROJECT_DIR$/src/decoders/CompanyToBase64Decoder.java" />
+        <option value="$PROJECT_DIR$/src/processor/WriteProcessorRunnable.java" />
+        <option value="$PROJECT_DIR$/src/processor/ProcessorRunnable.java" />
         <option value="$PROJECT_DIR$/src/processor/Main.java" />
+        <option value="$PROJECT_DIR$/src/processor/ProcessorException.java" />
+        <option value="$PROJECT_DIR$/src/decoders/Decoder.java" />
+        <option value="$PROJECT_DIR$/src/encoders/Encoder.java" />
+        <option value="$PROJECT_DIR$/src/processors/Processor.java" />
+        <option value="$PROJECT_DIR$/src/processors/CompanyProcessor.java" />
       </list>
     </option>
   </component>
@@ -483,7 +489,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="OverrideImplement.combined" value="false" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -627,7 +633,15 @@
       <created>1362726561384</created>
       <updated>1362726561384</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Using a new framework to process files using encoder and decorer interfaces">
+      <created>1362733179617</created>
+      <updated>1362733179617</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Adding Exception Handling">
+      <created>1362735862853</created>
+      <updated>1362735862853</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -695,7 +709,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Committing changes so far (before refactoring code to include processor,encoder,decoder)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Exception Handling" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -713,6 +727,8 @@
     <MESSAGE value="using ioutils.closequietyly" />
     <MESSAGE value="Adding mor abstraction" />
     <MESSAGE value="Committing changes so far (before refactoring code to include processor,encoder,decoder)" />
+    <MESSAGE value="Using a new framework to process files using encoder and decorer interfaces" />
+    <MESSAGE value="Adding Exception Handling" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -738,7 +754,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="1381" column="37" selection-start="55225" selection-end="55236" vertical-scroll-proportion="0.31903946">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -766,32 +782,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/encoders/Encoder.java">
+    <entry file="file://$PROJECT_DIR$/src/encoders/LineToCompanyEncoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="36" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/processors/Processor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="40" selection-start="245" selection-end="245" vertical-scroll-proportion="0.3">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/processor/WriteProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="29" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/processor/LineProcessorRunnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="125" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0">
+        <state line="17" column="8" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -803,24 +796,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/decoders/Decoder.java">
+    <entry file="file://$PROJECT_DIR$/src/processor/WriteProcessorRunnable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="28" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/encoders/LineToCompanyEncoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="8" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/decoders/CompanyToLineDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="5" selection-start="274" selection-end="394" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="13" column="37" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -833,12 +814,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/decoders/CompanyToLineDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="5" selection-start="274" selection-end="394" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/decoders/Decoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="155" selection-end="278" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/encoders/Encoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="52" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/processors/Processor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="59" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/processors/CompanyProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="21" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/processor/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="86" selection-start="2567" selection-end="2567" vertical-scroll-proportion="0.49281314">
+        <state line="97" column="44" selection-start="4161" selection-end="4161" vertical-scroll-proportion="-30.576923">
           <folding>
-            <element signature="e#2058#2066#0" expanded="true" />
+            <element signature="e#2327#2335#0" expanded="true" />
+            <element signature="e#2410#2418#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/processor/ProcessorRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="42" selection-start="1268" selection-end="1268" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/processor/ProcessorException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="4" selection-start="188" selection-end="188" vertical-scroll-proportion="0.3">
+          <folding />
         </state>
       </provider>
     </entry>
