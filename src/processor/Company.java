@@ -18,7 +18,7 @@ public class Company {
     private  String field3;
     private  String field4;
     private static final List<Pattern> REGEX_PATTERNS = new ArrayList<Pattern>(
-            Arrays.asList(Pattern.compile("asbd")
+            Arrays.asList(Pattern.compile("field")
 //                    ,Pattern.compile("as|f|as|g|we|g|sdf|gas|asdf|agsD|hsdfg|jgdfh|fgh|wrty|dkh|fghS|DFg|fdj|DjgdfgJD|gjdGFH|dfgh||SDFGsdfgsfdgsdfgsdfgsdfgsdfg|sdfgsfdgsdgfsdfg|sfdg|sdfgsdfg|SfgsFD|Gsdfg|sdfg|Sdfg|sdfg")
 //                    ,Pattern.compile("as|f|as|g|we|g|sdf|gas|asdf|agsD|hsdfg|jgdfh|fgh|wrty|dkh|fghS|DFg|fdj|DjgdfgJD|gjdGFH|dfgh||SDFGsdfgsfdgsdfgsdfgsdfgsdfg|sdfgsfdgsdgfsdfg|sfdg|sdfgsdfg|SfgsFD|Gsdfg|sdfg|Sdfg|sdfg")
 //                    ,Pattern.compile("as|f|as|g|we|g|sdf|gas|asdf|agsD|hsdfg|jgdfh|fgh|wrty|dkh|fghS|DFg|fdj|DjgdfgJD|gjdGFH|dfgh||SDFGsdfgsfdgsdfgsdfgsdfgsdfg|sdfgsfdgsdgfsdfg|sfdg|sdfgsdfg|SfgsFD|Gsdfg|sdfg|Sdfg|sdfg")
@@ -72,7 +72,7 @@ public class Company {
     public  String apply(String company){
 
         for(Pattern pattern : REGEX_PATTERNS){
-            company = pattern.matcher(company).replaceFirst("ABCDEFGHIJKLM");
+            company = pattern.matcher(company).replaceFirst("reild");
         }
 
         return company;

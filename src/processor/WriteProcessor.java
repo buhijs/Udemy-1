@@ -11,13 +11,13 @@ import java.util.concurrent.BlockingQueue;
  * Time: 8:02 PM
  * To change this template use File | Settings | File Templates.
  */
-public class AsyncWriteConsumer<T> implements Runnable {
+public class WriteProcessor<T> implements Runnable {
 
     private OutputStream writer;
     private BlockingQueue<T> readQ;
     private volatile boolean stopSignal = false;
 
-    public AsyncWriteConsumer(OutputStream writer, BlockingQueue<T> readQ){
+    public WriteProcessor(OutputStream writer, BlockingQueue<T> readQ){
 
         this.readQ = readQ;
         this.writer = writer;

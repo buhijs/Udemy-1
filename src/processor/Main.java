@@ -1,6 +1,9 @@
 package processor;
 
+import decoders.CompanyToBase64Decoder;
+import encoders.LineToCompanyEncoder;
 import org.apache.commons.io.IOUtils;
+import processors.CompanyProcessor;
 
 import java.io.*;
 import java.util.concurrent.*;
@@ -45,22 +48,26 @@ public class Main {
 
             reader = new FileInputStream(new File(SOURCE_FILE));
             writer = new FileOutputStream(new File(DEST_FILE));
-            BlockingQueue<SerialReadProducer> writeQ= new ArrayBlockingQueue<SerialReadProducer>(10);
+            BlockingQueue<String> writeQ= new ArrayBlockingQueue<String>(10);
 
             //Start the consumer
-            Runnable consumerWorker = new AsyncWriteConsumer(writer, writeQ);
+            Runnable consumerWorker = new WriteProcessor(writer, writeQ);
             consumeExecutor.execute(consumerWorker);
 
             String line;
             BufferedReader br = new BufferedReader(new InputStreamReader(reader));
             while((line = br.readLine()) != null){
-                Runnable worker = new LineProcessorRunnable(line, writeQ, new CompanySerialReadProducer(line));
+                Runnable worker = new LineProcessorRunnable(new LineToCompanyEncoder(),
+                                                            new CompanyToBase64Decoder('\t'),
+                                                            new CompanyProcessor(),
+                                                            line,
+                                                            writeQ);
                 produceExecutor.execute(worker);
              }
 
 
             produceExecutor.shutdown();
-            ((AsyncWriteConsumer)consumerWorker).stop();
+            ((WriteProcessor)consumerWorker).stop();
             consumeExecutor.shutdown();
 
             while(!produceExecutor.isTerminated() || !consumeExecutor.isTerminated()){
