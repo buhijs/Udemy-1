@@ -54,7 +54,7 @@ public class Main {
             String line;
             BufferedReader br = new BufferedReader(new InputStreamReader(reader));
             while((line = br.readLine()) != null){
-                Runnable worker = new LineProcessor(line, writeQ, new CompanySerialReadProducer(line));
+                Runnable worker = new LineProcessorRunnable(line, writeQ, new CompanySerialReadProducer(line));
                 produceExecutor.execute(worker);
              }
 

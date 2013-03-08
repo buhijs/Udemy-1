@@ -27,7 +27,7 @@ public class AsyncWriteConsumer<T> implements Runnable {
     public void run(){
         try {
             while(!stopSignal || !readQ.isEmpty()){
-                write();
+                write(); //blocking queue may have look at wait and notify
             }
         } catch (IOException ex){
             ex.printStackTrace();
@@ -42,7 +42,6 @@ public class AsyncWriteConsumer<T> implements Runnable {
     private void write() throws IOException {
         if(!readQ.isEmpty()) {
             writer.write((((T)readQ.poll()).toString() + "\n").getBytes());
-            //writer.write((((T)readQ.poll()).toString() + "\n").getBytes());
             writer.flush();
         }
     }

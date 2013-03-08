@@ -9,13 +9,13 @@ import java.util.concurrent.BlockingQueue;
  * Time: 8:02 PM
  * To change this template use File | Settings | File Templates.
  */
-public class LineProcessor implements Runnable {
+public class LineProcessorRunnable implements Runnable {
 
     private BlockingQueue<SerialReadProducer> writeQ;
     private String line;
     private SerialReadProducer readProducer;
 
-    public LineProcessor(String line, BlockingQueue<SerialReadProducer> writeQ, SerialReadProducer readProducer)  {
+    public LineProcessorRunnable(String line, BlockingQueue<SerialReadProducer> writeQ, SerialReadProducer readProducer)  {
         this.line = line;
         this.writeQ = writeQ;
         this.readProducer = readProducer;

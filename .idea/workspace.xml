@@ -2,31 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5dc8487b-977c-49f3-93f0-aa6604c66bf6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/processor/CompanySerialReadProducer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/processor/SerialReadProducer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/processor/CompanyProducer.java" afterPath="$PROJECT_DIR$/src/processor/LineProcessor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/processor/LineProcessor.java" afterPath="$PROJECT_DIR$/src/processor/LineProcessorRunnable.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/processor/AsyncWriteConsumer.java" afterPath="$PROJECT_DIR$/src/processor/AsyncWriteConsumer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/processor/Company.java" afterPath="$PROJECT_DIR$/src/processor/Company.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/processor/Main.java" afterPath="$PROJECT_DIR$/src/processor/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Udemy.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362134272620" ignored="false" />
+    <file path="/Dummy.txt" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362688950566" ignored="false" />
     <file path="/CompanyFileWriter.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1361247868505" ignored="false" />
     <file path="/CompanyRunnable.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1361760600253" ignored="false" />
     <file path="/CompanyFileReader.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1361260371085" ignored="false" />
     <file path="/blah.json" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1360827955777" ignored="false" />
     <file path="/Main.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362164254010" ignored="false" />
     <file path="/Company.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362160356446" ignored="false" />
-    <file path="/a.dummy" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362099699561" ignored="false" />
+    <file path="/a.dummy" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362700139656" ignored="false" />
     <file path="$USER_HOME$/Documents/workspace/DemandbaseCleaningUtils/src/java/com/demandbase/etl/misc/EOLStockCleaner.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362103137233" ignored="false" />
     <file path="/EOLStockCleaner.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362106502968" ignored="false" />
     <file path="/CleaningUtils.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362104166761" ignored="false" />
-    <file path="$USER_HOME$/Documents/workspace/DemandbaseCleaningUtils/src/java/com/demandbase/etl/CleaningUtils.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362104168072" ignored="false" />
-    <file path="$USER_HOME$/Documents/workspace/DemandbaseCleaningUtils/src/java/com/demandbase/etl/EOLCompany.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362105647709" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/DemandbaseCleaningUtils/src/java/com/demandbase/etl/CleaningUtils.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362435037952" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/DemandbaseCleaningUtils/src/java/com/demandbase/etl/EOLCompany.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362175023611" ignored="false" />
     <file path="/fragment.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362106324347" ignored="false" />
-    <file path="/CompanyConsumer.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362160312023" ignored="false" />
+    <file path="/CompanyConsumer.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362726386892" ignored="false" />
     <file path="/CompanyProducer.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362132830138" ignored="false" />
     <file path="/AsyncReadProducer.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362131863500" ignored="false" />
     <file path="/ReadProducer.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362160949380" ignored="false" />
@@ -34,6 +31,37 @@
     <file path="/Processor.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362163969062" ignored="false" />
     <file path="/SerialReadProducer.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362164555045" ignored="false" />
     <file path="/CompanySerialReadProducer.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362164411537" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/DemandbaseCleaningUtils/sproc/Set SIDs.sql" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362434593670" ignored="false" />
+    <file path="/Set SIDs.sql" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362434587342" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/DemandbaseCleaningUtils/test/java/com/demandbase/etl/CleaningUtilsTest.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362435037952" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/DemandbaseCleaningUtils/sproc/Set Production Values.sql" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362435251309" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/DemandbaseCleaningUtils/sproc/Push Down Hierarchy.sql" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362686538195" ignored="false" />
+    <file path="/Set F1000 Forbes2000.sql" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362601870330" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/DemandbaseCleaningUtils/sproc/Set F1000 Forbes2000.sql" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362601895055" ignored="false" />
+    <file path="/Push Down Hierarchy.sql" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362686535282" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/DemandbaseCleaningUtils/sproc/Create Production Tables.sql" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362685265213" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/DemandbaseCleaningUtils/sproc/Add ISO 3166-2 States" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362683847079" ignored="false" />
+    <file path="/Add ISO 3166-2 States" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362683845995" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/DemandbaseCleaningUtils/sproc/Assign Industry.sql" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362685177953" ignored="false" />
+    <file path="/Assign Industry.sql" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362685176760" ignored="false" />
+    <file path="/Augment Domain From Sources.sql" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362685219271" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/DemandbaseCleaningUtils/sproc/Augment Domain From Sources.sql" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362685219950" ignored="false" />
+    <file path="/Create Production Tables.sql" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362685265213" ignored="false" />
+    <file path="/Fix Broken Hierarchy.sql" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362685389203" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/DemandbaseCleaningUtils/sproc/Fix Broken Hierarchy.sql" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362685396145" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/DemandbaseCleaningUtils/sproc/fix_education_sics.sql" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362685989584" ignored="false" />
+    <file path="/fix_education_sics.sql" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362685988884" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/DemandbaseCleaningUtils/sproc/Generate Diff New vs Old Data Load.sql" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362686047999" ignored="false" />
+    <file path="/Generate Diff New vs Old Data Load.sql" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362686031918" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/DemandbaseCleaningUtils/sproc/Master Company Final Overrides.sql" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362686416269" ignored="false" />
+    <file path="/Master Company Final Overrides.sql" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362686415605" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/DemandbaseCleaningUtils/sproc/Merge Edgar Online.sql" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362686480651" ignored="false" />
+    <file path="/Merge Edgar Online.sql" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362686480651" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/DemandbaseCleaningUtils/sproc/Push Key Company.sql" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362688202242" ignored="false" />
+    <file path="/Push Key Company.sql" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362688173796" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/DemandbaseCleaningUtils/sproc/Push Revenue Multipliers.sql" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362688090841" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/DemandbaseCleaningUtils/sproc/Report.sql" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362688400093" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/DemandbaseCleaningUtils/sproc/Set Hierarchy Size.sql" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362688614087" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,19 +121,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LineProcessor.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/processor/LineProcessor.java">
+      <file leaf-file-name="LineProcessorRunnable.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/processor/LineProcessorRunnable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="12" selection-start="648" selection-end="648" vertical-scroll-proportion="0.0">
+            <state line="24" column="12" selection-start="664" selection-end="664" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AsyncWriteConsumer.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AsyncWriteConsumer.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/processor/AsyncWriteConsumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="28" selection-start="971" selection-end="971" vertical-scroll-proportion="0.0">
+            <state line="43" column="75" selection-start="1068" selection-end="1068" vertical-scroll-proportion="1.1969408">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,7 +144,7 @@
       <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/processor/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="86" selection-start="2393" selection-end="2393" vertical-scroll-proportion="0.0">
+            <state line="63" column="40" selection-start="2621" selection-end="2621" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#1956#1976#0" expanded="true" />
               </folding>
@@ -133,10 +161,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SerialReadProducer.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SerialReadProducer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/processor/SerialReadProducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="35" selection-start="275" selection-end="275" vertical-scroll-proportion="0.31548756">
+            <state line="11" column="35" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -176,7 +204,6 @@
         <option value="$PROJECT_DIR$/src/processor/CompanyConsumer.java" />
         <option value="$PROJECT_DIR$/src/processor/AsyncReadProducer.java" />
         <option value="$PROJECT_DIR$/src/processor/CompanyProducer.java" />
-        <option value="$PROJECT_DIR$/src/processor/AsyncWriteConsumer.java" />
         <option value="$PROJECT_DIR$/src/processor/ReadProducer.java" />
         <option value="$PROJECT_DIR$/src/processor/CompanyReadProducer.java" />
         <option value="$PROJECT_DIR$/src/processor/Processor.java" />
@@ -185,12 +212,13 @@
         <option value="$PROJECT_DIR$/src/processor/LineProcessor.java" />
         <option value="$PROJECT_DIR$/src/processor/CompanySerialReadProducer.java" />
         <option value="$PROJECT_DIR$/src/processor/SerialReadProducer.java" />
+        <option value="$PROJECT_DIR$/src/processor/AsyncWriteConsumer.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2019" />
-    <option name="y" value="-99" />
+    <option name="x" value="301" />
+    <option name="y" value="22" />
     <option name="width" value="1414" />
     <option name="height" value="939" />
   </component>
@@ -330,6 +358,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="misc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -490,11 +522,15 @@
       <created>1362134277882</created>
       <updated>1362134277882</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adding mor abstraction">
+      <created>1362164648897</created>
+      <updated>1362164648897</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2019" y="-99" width="1414" height="939" extended-state="0" />
+    <frame x="301" y="22" width="1414" height="939" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32722834" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -505,7 +541,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32844934" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32844934" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -558,7 +594,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="using ioutils.closequietyly" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding mor abstraction" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -574,6 +610,7 @@
     <MESSAGE value="Using ThreadPoolExecutor" />
     <MESSAGE value="Refactoring and using the consumer and producer threadpool" />
     <MESSAGE value="using ioutils.closequietyly" />
+    <MESSAGE value="Adding mor abstraction" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -595,22 +632,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/src.zip!/java/io/IOException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="48" selection-start="400" selection-end="400" vertical-scroll-proportion="0.12798634">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/EOLStockCleaner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="58" selection-start="2072" selection-end="2072" vertical-scroll-proportion="0.8866995">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="286" column="30" selection-start="12128" selection-end="12632" vertical-scroll-proportion="0.65353036">
@@ -669,38 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/processor/Company.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="22" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/processor/AsyncWriteConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="28" selection-start="971" selection-end="971" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/processor/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="86" selection-start="2393" selection-end="2393" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#1956#1976#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/processor/LineProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="12" selection-start="648" selection-end="648" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/processor/CompanySerialReadProducer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="13" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0">
@@ -710,8 +699,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/processor/SerialReadProducer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="35" selection-start="275" selection-end="275" vertical-scroll-proportion="0.31548756">
+        <state line="11" column="35" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/processor/Company.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="22" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/EOLStockCleaner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="34" selection-start="1882" selection-end="1882" vertical-scroll-proportion="1.2582237">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/processor/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="40" selection-start="2621" selection-end="2621" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1956#1976#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/processor/LineProcessorRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="12" selection-start="664" selection-end="664" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/processor/AsyncWriteConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="75" selection-start="1068" selection-end="1068" vertical-scroll-proportion="1.1969408">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
