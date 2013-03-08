@@ -13,27 +13,35 @@ import java.util.concurrent.BlockingQueue;
  * Time: 8:02 PM
  * To change this template use File | Settings | File Templates.
  */
-public class LineProcessorRunnable<T,V,M> implements Runnable {
+public class ProcessorRunnable<T,V,M> implements Runnable {
     private Encoder<T,V> encoder;
     private Decoder<V,M> decoder;
     private Processor<V> processor;
     private T input;
 
     private BlockingQueue<M> writeQ;
+    private BlockingQueue<T> errorWriteQ;
 
-    public LineProcessorRunnable(Encoder<T,V> encoder, Decoder<V,M> decoder, Processor<V> processor, T input, BlockingQueue<M> writeQ)  {
+    public ProcessorRunnable(Encoder<T, V> encoder, Decoder<V, M> decoder, Processor<V> processor, T input, BlockingQueue<M> writeQ, BlockingQueue<T> errorWriteQ)  {
         this.encoder = encoder;
         this.decoder = decoder;
         this.processor = processor;
         this.input = input;
         this.writeQ = writeQ;
+        this.errorWriteQ = errorWriteQ;
     }
 
     public void run(){
-        M output = decoder.decode(processor.process(encoder.encode(input)));
+        M output = null;
+        try{
+            output = decoder.decode(processor.process(encoder.encode(input)));
+            //Wait if queue is at capacity
+            while(!writeQ.offer(output)){}
+        } catch (Exception ex){
+            ex.printStackTrace();
+            while(!errorWriteQ.offer(input)){};
+        }
 
-        //Wait if queue is at capacity
-        while(!writeQ.offer(output)){}
 
     }
 }
