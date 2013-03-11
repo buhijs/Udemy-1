@@ -35,8 +35,11 @@ public class ProcessorRunnable<T,V,M> implements Runnable {
         M output = null;
         try{
             output = decoder.decode(processor.process(encoder.encode(input)));
-            //Wait if queue is at capacity
-            while(!writeQ.offer(output)){}
+
+            if(output != null){
+                //Wait if queue is at capacity
+                while(!writeQ.offer(output)){}
+            }
         } catch (Exception ex){
             ex.printStackTrace();
             while(!errorWriteQ.offer(input)){};

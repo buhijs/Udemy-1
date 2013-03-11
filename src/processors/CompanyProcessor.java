@@ -1,5 +1,7 @@
 package processors;
 
+import filters.DNBCompanyBranchFilter;
+import filters.Filter;
 import processor.Company;
 
 /**
@@ -12,7 +14,20 @@ import processor.Company;
  */
 public class CompanyProcessor implements Processor<Company> {
     public Company process(Company company){
-        company.clean();
-        return company;
+        if(company == null){
+            return null;
+        }
+
+        //Filter all branches
+        Filter filter = new DNBCompanyBranchFilter(company);
+
+        //If record is filtered return null
+        if(!filter.isFilterConditionMet()){
+            company.clean();
+            return company;
+        } else {
+            return null;
+        }
+
     }
 }

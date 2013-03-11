@@ -15,6 +15,9 @@ public class CompanyToLineDecoder implements Decoder<Company,String> {
         this.separator = separator;
     }
     public String decode(Company company){
-        return company.getField1()+separator+company.getField2()+separator+company.getField3()+separator+company.getField4();
+        if(company == null)
+            return null;
+        else
+            return company.getField1()+separator+company.getField2()+separator+company.getField3()+separator+company.getField4();
     }
 }

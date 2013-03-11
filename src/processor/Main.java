@@ -106,3 +106,8 @@ public class Main {
 
     }
 }
+
+//Create rules processor need the history of the rules that were processed and how many times
+//Add filtration to this
+//Fix exceptions
+//send all errors in duns numbers during data load and send it to DNB

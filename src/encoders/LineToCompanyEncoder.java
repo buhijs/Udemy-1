@@ -12,6 +12,9 @@ import processor.Company;
 public class LineToCompanyEncoder implements Encoder<String, Company> {
 
     public Company encode(String line){
+        if(line == null){
+            return null;
+        }
         //Split the line and process the contents
         String[] components= line.split("\t");
 

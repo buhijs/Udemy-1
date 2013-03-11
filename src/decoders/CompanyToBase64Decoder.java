@@ -22,8 +22,10 @@ public class CompanyToBase64Decoder implements Decoder<Company, String> {
     }
 
     public String decode(Company company){
-
-        return getBase64(company.getField1()+separator+company.getField2()+separator+company.getField3()+separator+company.getField4());
+        if(company == null)
+            return null;
+        else
+            return getBase64(company.getField1()+separator+company.getField2()+separator+company.getField3()+separator+company.getField4());
     }
 
     public String getBase64(String input){
