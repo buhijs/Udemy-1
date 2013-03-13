@@ -1,4 +1,4 @@
-package processor;
+package misc;
 
 import java.io.IOException;
 import java.io.OutputStream;
@@ -11,13 +11,13 @@ import java.util.concurrent.BlockingQueue;
  * Time: 8:02 PM
  * To change this template use File | Settings | File Templates.
  */
-public class WriteProcessorRunnable<T> implements Runnable {
+public class WritePipelineRunnable<T> implements Runnable {
 
     private OutputStream writer;
     private BlockingQueue<T> readQ;
     private volatile boolean stopSignal = false;
 
-    public WriteProcessorRunnable(OutputStream writer, BlockingQueue<T> readQ){
+    public WritePipelineRunnable(OutputStream writer, BlockingQueue<T> readQ){
 
         this.readQ = readQ;
         this.writer = writer;
@@ -27,7 +27,7 @@ public class WriteProcessorRunnable<T> implements Runnable {
     public void run(){
         try {
             while(!stopSignal || !readQ.isEmpty()){
-                write(); //blocking queue may have look at wait and notify
+                write();
             }
         } catch (IOException ex){
             ex.printStackTrace();
@@ -41,7 +41,11 @@ public class WriteProcessorRunnable<T> implements Runnable {
 
     private void write() throws IOException {
         if(!readQ.isEmpty()) {
-            writer.write((((T)readQ.poll()).toString() + "\n").getBytes());
+            try {
+                writer.write((((T)readQ.take()).toString() + "\n").getBytes());
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
             writer.flush();
         }
     }

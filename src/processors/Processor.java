@@ -9,5 +9,5 @@ package processors;
  * @param <V> the type of object that needs to be processed
  */
 public interface Processor<V> {
-    public V process(V objectToProcess);
+    public V process(V objectToProcess) throws ProcessorException;
 }

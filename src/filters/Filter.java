@@ -7,6 +7,6 @@ package filters;
  * Time: 5:32 PM
  * To change this template use File | Settings | File Templates.
  */
-public interface Filter {
-    public boolean isFilterConditionMet();
+public interface Filter<V> {
+    public boolean isFilterConditionMet(V objectToFilter) throws FilterException;
 }

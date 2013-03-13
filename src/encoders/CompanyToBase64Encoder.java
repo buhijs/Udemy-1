@@ -1,6 +1,6 @@
-package decoders;
+package encoders;
 
-import processor.Company;
+import misc.Company;
 import sun.misc.BASE64Encoder;
 
 import java.io.UnsupportedEncodingException;
@@ -12,16 +12,16 @@ import java.io.UnsupportedEncodingException;
  * Time: 12:31 AM
  * To change this template use File | Settings | File Templates.
  */
-public class CompanyToBase64Decoder implements Decoder<Company, String> {
+public class CompanyToBase64Encoder implements Encoder<Company, String> {
     private final char separator;
     private static final String DEFAULT_ENCODING="UTF-8";
     private static BASE64Encoder enc=new BASE64Encoder();
 
-    public CompanyToBase64Decoder(char separator){
+    public CompanyToBase64Encoder(char separator){
         this.separator = separator;
     }
 
-    public String decode(Company company){
+    public String encode(Company company){
         if(company == null)
             return null;
         else

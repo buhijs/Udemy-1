@@ -2,19 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5dc8487b-977c-49f3-93f0-aa6604c66bf6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/processor/Company.java" afterPath="$PROJECT_DIR$/src/processor/Company.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/decoders/DecoderException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/encoders/EncoderException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/filters/FilterException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/processors/ProcessorException.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/misc/EOLStockCleaner.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/processor/WriteProcessorRunnable.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/decoders/CompanyToBase64Decoder.java" afterPath="$PROJECT_DIR$/src/encoders/CompanyToBase64Encoder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/decoders/CompanyToLineDecoder.java" afterPath="$PROJECT_DIR$/src/encoders/CompanyToLineEncoder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/encoders/LineToCompanyEncoder.java" afterPath="$PROJECT_DIR$/src/decoders/LineToCompanyDecoder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/processor/Company.java" afterPath="$PROJECT_DIR$/src/misc/Company.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/processor/Main.java" afterPath="$PROJECT_DIR$/src/misc/Main.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/processor/ProcessorException.java" afterPath="$PROJECT_DIR$/src/misc/PipelineException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/processor/ProcessorRunnable.java" afterPath="$PROJECT_DIR$/src/misc/PipelineRunnable.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/processor/WriteProcessorRunnable.java" afterPath="$PROJECT_DIR$/src/misc/WritePipelineRunnable.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/processors/CompanyProcessor.java" afterPath="$PROJECT_DIR$/src/processors/CompanyProcessor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/filters/DNBCompanyBranchFilter.java" afterPath="$PROJECT_DIR$/src/filters/DNBCompanyBranchFilter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/decoders/Decoder.java" afterPath="$PROJECT_DIR$/src/decoders/Decoder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/encoders/Encoder.java" afterPath="$PROJECT_DIR$/src/encoders/Encoder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/filters/Filter.java" afterPath="$PROJECT_DIR$/src/filters/Filter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/processors/Processor.java" afterPath="$PROJECT_DIR$/src/processors/Processor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Udemy.iml" afterPath="$PROJECT_DIR$/Udemy.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Udemy.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363134749393" ignored="false" />
+    <file path="/Dummy.txt" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207792234" ignored="false" />
     <file path="/CompanyFileWriter.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1361247868505" ignored="false" />
     <file path="/CompanyRunnable.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1361760600253" ignored="false" />
     <file path="/CompanyFileReader.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1361260371085" ignored="false" />
     <file path="/blah.json" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1360827955777" ignored="false" />
-    <file path="/Main.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362774072774" ignored="false" />
+    <file path="/Main.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363218176689" ignored="false" />
     <file path="/Company.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362730937343" ignored="false" />
-    <file path="/a.dummy" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362781761099" ignored="false" />
+    <file path="/a.dummy" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207811411" ignored="false" />
     <file path="$USER_HOME$/Documents/workspace/DemandbaseCleaningUtils/src/java/com/demandbase/etl/misc/EOLStockCleaner.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362103137233" ignored="false" />
     <file path="/EOLStockCleaner.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362106502968" ignored="false" />
     <file path="/CleaningUtils.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362104166761" ignored="false" />
@@ -60,23 +80,106 @@
     <file path="$USER_HOME$/Documents/workspace/DemandbaseCleaningUtils/sproc/Push Revenue Multipliers.sql" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362688090841" ignored="false" />
     <file path="$USER_HOME$/Documents/workspace/DemandbaseCleaningUtils/sproc/Report.sql" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362688400093" ignored="false" />
     <file path="$USER_HOME$/Documents/workspace/DemandbaseCleaningUtils/sproc/Set Hierarchy Size.sql" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362688614087" ignored="false" />
-    <file path="/Decoder.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362737131758" ignored="false" />
-    <file path="/Encoder.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362737165905" ignored="false" />
+    <file path="/Decoder.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363205323917" ignored="false" />
+    <file path="/Encoder.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363212321967" ignored="false" />
     <file path="/CompanyLineEncoder.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362727582203" ignored="false" />
     <file path="/CompanyLineDecoder.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362728195756" ignored="false" />
-    <file path="/CompanyProcessor.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362963284241" ignored="false" />
+    <file path="/CompanyProcessor.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363218574884" ignored="false" />
     <file path="/AtomicProcessor.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362729659168" ignored="false" />
     <file path="/LineProcessorRunnable.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362730514803" ignored="false" />
     <file path="/CompanyToSHA1Decoder.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362733035792" ignored="false" />
-    <file path="/ProcessorException.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362769235590" ignored="false" />
-    <file path="/ProcessorRunnable.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362962983731" ignored="false" />
+    <file path="/ProcessorException.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363213318539" ignored="false" />
+    <file path="/ProcessorRunnable.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363205546614" ignored="false" />
     <file path="/DNBBranchFilter.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362962302550" ignored="false" />
-    <file path="/Filter.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362962074247" ignored="false" />
-    <file path="/DNBCompanyBranchFilter.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362962199394" ignored="false" />
+    <file path="/Filter.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363217375188" ignored="false" />
+    <file path="/DNBCompanyBranchFilter.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363217460587" ignored="false" />
     <file path="/CompanyToLineDecoder.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362963217665" ignored="false" />
     <file path="/LineToCompanyEncoder.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362963251186" ignored="false" />
     <file path="/CompanyToBase64Decoder.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362963514044" ignored="false" />
     <file path="/somedecoder.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363134099984" ignored="false" />
+    <file path="/WriteProcessorRunnable.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363135811604" ignored="false" />
+    <file path="/LineToCompanyDecoder.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363217823481" ignored="false" />
+    <file path="/CompanyToLineEncoder.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363217721532" ignored="false" />
+    <file path="/CompanyToBase64Encoder.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363205411958" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/DemandbaseImageUtils/.idea/workspace.xml" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363206410846" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/NSExplain.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207796238" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/SimpleNSQuery.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207796969" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/Word.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207796969" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/BaseNSMatcherQuery.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207796969" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/BaseNSResult.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207796969" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/JsonAware.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207796969" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/Key.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207796969" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/KeyRange.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207796969" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/MatchGroup.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207796970" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/MultiComparisonQuery.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207796970" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/NSAlfaComparisionResult.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207796970" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/NSAlfaComparisonQuery.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207796970" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/NsApiCall.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207796970" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/NSComp2Query.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207796970" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/NSComp2Result.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207796970" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/NSComparisonFunction.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207796970" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/NSComparisonQuery.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207796970" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/NSComparisonType.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207796970" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/NSCompositeMatchGroup.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207796970" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/NSDateComparisonQuery.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207796970" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/NSDateComparisonResult.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207796970" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/NSFinderQuery.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207796970" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/NSFinderResult.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207796970" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/NSFunctionDefinition.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207796971" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/NSMatcherMQuery.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207796971" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/NSMatcherMResult.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207796971" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/NSMatcherQuery.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207796971" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/NSMatcherResult.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207796971" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/NSMatchFunction.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207796971" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/NSMatchGroup.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207796971" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/NSMatchQuery.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207796971" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/NSNumberComparisonQuery.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207796971" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/NSNumberComparisonResult.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207796971" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/NSQuery.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207796971" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/NSQueryBuilder.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207796971" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/NSResult.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207796971" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/NSScoreFunction.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207796971" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/NSScoreMask.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207796971" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/NSScoreResult.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207796971" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/NSScoreType.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207796972" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/NSService.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207796972" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/test/java/com/demandbase/ns/FunctionExamples.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207797613" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/test/java/com/demandbase/ns/client/NSClientLocalTest.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207797613" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/server/NameSearchRestServer.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207797613" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/test/java/com/demandbase/ns/client/NSClientRemoteTest.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207797613" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/service/CachingNameSearchService.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207798245" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/service/CASSResult.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207798245" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/service/NameSearchService.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207798245" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/server/service/JsonNsMatcherResultDataProvider.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207798245" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/server/service/KeysJsonNsResultDataProvider.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207798245" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/server/service/MatchesJsonComp2ResultDataProvider.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207798245" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/server/service/NsResultDataProvider.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207798245" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/server/service/RangesJsonNsResultDataProvider.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207798245" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/server/resource/JsonObject.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207799076" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/server/resource/KeyRangesResource.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207799076" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/server/resource/KeysResource.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207799076" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/server/resource/MatchesResource.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207799076" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/server/resource/NsServerResource.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207799076" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/server/resource/RootServerResource.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207799076" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/client/NSClientLocator.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363208690397" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/client/Match.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363208830848" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/client/MatcherResult.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363208830848" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/client/NameSearchLocator.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363208830848" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/client/NSClient.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363208830848" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/client/NSLocalClient.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363208830848" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/client/NSLocalClientException.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363209563505" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/client/NSRemoteClient.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363208830848" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/client/NSRemoteClientException.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363208830848" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/client/NSRemoteClientParseException.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363208830848" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/client/NSRemoteClientServerException.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363208830849" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/client/KeyRangesResult.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363208830849" ignored="false" />
+    <file path="$USER_HOME$/Documents/workspace/namesearch/src/java/com/demandbase/ns/client/KeysResult.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363208830849" ignored="false" />
+    <file path="/PipelineException.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363209644632" ignored="false" />
+    <file path="/NSLocalClientException.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363209542474" ignored="false" />
+    <file path="/FilterException.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363213382373" ignored="false" />
+    <file path="/EncoderException.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363210042469" ignored="false" />
+    <file path="/DecoderException.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363210034581" ignored="false" />
+    <file path="/PipelineRunnable.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363218457083" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,82 +239,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CompanyProcessor.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/processors/CompanyProcessor.java">
+      <file leaf-file-name="LineToCompanyDecoder.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/decoders/LineToCompanyDecoder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="24" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0">
+            <state line="26" column="62" selection-start="897" selection-end="897" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Processor.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/processors/Processor.java">
+      <file leaf-file-name="Encoder.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/encoders/Encoder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="59" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
+            <state line="12" column="61" selection-start="390" selection-end="390" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProcessorRunnable.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/processor/ProcessorRunnable.java">
+      <file leaf-file-name="Filter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/filters/Filter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="12" selection-start="1074" selection-end="1074" vertical-scroll-proportion="0.0">
+            <state line="10" column="19" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Company.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/processor/Company.java">
+      <file leaf-file-name="CompanyToLineEncoder.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/encoders/CompanyToLineEncoder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="0" selection-start="3293" selection-end="3293" vertical-scroll-proportion="1.3039014">
+            <state line="23" column="11" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProcessorException.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/processor/ProcessorException.java">
+      <file leaf-file-name="CompanyToBase64Encoder.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/encoders/CompanyToBase64Encoder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="49" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
+            <state line="14" column="13" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/processor/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/misc/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="57" selection-start="2320" selection-end="2320" vertical-scroll-proportion="0.0">
+            <state line="73" column="64" selection-start="3334" selection-end="3334" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DNBCompanyBranchFilter.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="DNBCompanyBranchFilter.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/filters/DNBCompanyBranchFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="25" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0">
+            <state line="17" column="32" selection-start="403" selection-end="412" vertical-scroll-proportion="0.51">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CompanyToBase64Decoder.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/decoders/CompanyToBase64Decoder.java">
+      <file leaf-file-name="PipelineRunnable.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/misc/PipelineRunnable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="91" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.0">
+            <state line="48" column="13" selection-start="1557" selection-end="1557" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CompanyToLineDecoder.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/decoders/CompanyToLineDecoder.java">
+      <file leaf-file-name="CompanyProcessor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/processors/CompanyProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="12" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0">
+            <state line="28" column="32" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FilterException.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/filters/FilterException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="55" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -235,28 +347,28 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/processor/WriteProcessorRunnable.java" />
+        <option value="$PROJECT_DIR$/src/encoders/CompanyToBase64Encoder.java" />
+        <option value="$PROJECT_DIR$/src/misc/ProcessorRunnable.java" />
+        <option value="$PROJECT_DIR$/src/misc/PipelineException.java" />
+        <option value="$PROJECT_DIR$/src/encoders/EncoderException.java" />
+        <option value="$PROJECT_DIR$/src/decoders/DecoderException.java" />
         <option value="$PROJECT_DIR$/src/decoders/Decoder.java" />
         <option value="$PROJECT_DIR$/src/encoders/Encoder.java" />
-        <option value="$PROJECT_DIR$/src/processors/Processor.java" />
-        <option value="$PROJECT_DIR$/src/processor/ProcessorException.java" />
-        <option value="$PROJECT_DIR$/src/processor/Main.java" />
-        <option value="$PROJECT_DIR$/src/filters/DNBBranchFilter.java" />
+        <option value="$PROJECT_DIR$/src/processors/ProcessorException.java" />
+        <option value="$PROJECT_DIR$/src/filters/FilterException.java" />
         <option value="$PROJECT_DIR$/src/filters/Filter.java" />
         <option value="$PROJECT_DIR$/src/filters/DNBCompanyBranchFilter.java" />
-        <option value="$PROJECT_DIR$/src/processor/ProcessorRunnable.java" />
-        <option value="$PROJECT_DIR$/src/decoders/CompanyToLineDecoder.java" />
-        <option value="$PROJECT_DIR$/src/encoders/LineToCompanyEncoder.java" />
+        <option value="$PROJECT_DIR$/src/encoders/CompanyToLineEncoder.java" />
+        <option value="$PROJECT_DIR$/src/decoders/LineToCompanyDecoder.java" />
+        <option value="$PROJECT_DIR$/src/misc/Main.java" />
+        <option value="$PROJECT_DIR$/src/misc/PipelineRunnable.java" />
         <option value="$PROJECT_DIR$/src/processors/CompanyProcessor.java" />
-        <option value="$PROJECT_DIR$/src/decoders/CompanyToBase64Decoder.java" />
-        <option value="$PROJECT_DIR$/src/decoders/somedecoder.java" />
-        <option value="$PROJECT_DIR$/src/processor/Company.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1984" />
-    <option name="y" value="-26" />
+    <option name="x" value="2065" />
+    <option name="y" value="-51" />
     <option name="width" value="1414" />
     <option name="height" value="939" />
   </component>
@@ -399,24 +511,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="processor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Udemy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Udemy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="misc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -496,7 +590,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="OverrideImplement.combined" value="false" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -504,7 +598,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="vcs.Git" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/commons-io-2.3.jar!/" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/workspace/namesearch" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -552,7 +646,7 @@
     </configuration>
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="processor.Main" />
+      <option name="MAIN_CLASS_NAME" value="misc.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -656,32 +750,36 @@
       <created>1363026447754</created>
       <updated>1363026447754</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="removind unwanted inflate method">
+      <created>1363134868923</created>
+      <updated>1363134868923</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1984" y="-26" width="1414" height="939" extended-state="0" />
+    <frame x="2065" y="-51" width="1414" height="939" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32722834" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32844934" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32844934" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276492" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32722834" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2375731" sideWeight="0.6727717" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1941392" sideWeight="0.97749835" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32234433" sideWeight="0.97749835" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Regex" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32844934" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -724,7 +822,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding filter, encdoer, decorder and processor abstraction" />
+    <option name="LAST_COMMIT_MESSAGE" value="removind unwanted inflate method" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -746,6 +844,7 @@
     <MESSAGE value="Adding Exception Handling" />
     <MESSAGE value="more changes" />
     <MESSAGE value="Adding filter, encdoer, decorder and processor abstraction" />
+    <MESSAGE value="removind unwanted inflate method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -767,101 +866,114 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/misc/PipelineException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/src.zip!/java/lang/Exception.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="19" selection-start="1271" selection-end="1271" vertical-scroll-proportion="0.3579639">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/decoders/Decoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="62" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/decoders/DecoderException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="46" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/encoders/EncoderException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/processors/ProcessorException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="53" selection-start="546" selection-end="546" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/encoders/Encoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="52" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0">
+        <state line="12" column="61" selection-start="390" selection-end="390" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/processor/ProcessorException.java">
+    <entry file="file://$PROJECT_DIR$/src/filters/FilterException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="49" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
+        <state line="11" column="55" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/filters/Filter.java">
+    <entry file="file://$PROJECT_DIR$/src/decoders/LineToCompanyDecoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="42" selection-start="239" selection-end="239" vertical-scroll-proportion="0.19480519">
+        <state line="26" column="62" selection-start="897" selection-end="897" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/processors/Processor.java">
+    <entry file="file://$PROJECT_DIR$/src/encoders/CompanyToLineEncoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="59" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
+        <state line="23" column="11" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/src.zip!/java/util/concurrent/BlockingQueue.java">
+    <entry file="file://$PROJECT_DIR$/src/encoders/CompanyToBase64Encoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="218" column="12" selection-start="8054" selection-end="8054" vertical-scroll-proportion="0.33246753" />
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/src.zip!/java/lang/NullPointerException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="11" selection-start="1371" selection-end="1371" vertical-scroll-proportion="0.6103896" />
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="144" column="31" selection-start="3801" selection-end="3801" vertical-scroll-proportion="0.65591395" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/processor/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="57" selection-start="2320" selection-end="2320" vertical-scroll-proportion="0.0">
+        <state line="14" column="13" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/encoders/LineToCompanyEncoder.java">
+    <entry file="file://$PROJECT_DIR$/src/misc/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="24" selection-start="362" selection-end="362" vertical-scroll-proportion="0.29220778">
+        <state line="73" column="64" selection-start="3334" selection-end="3334" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/processor/ProcessorRunnable.java">
+    <entry file="file://$PROJECT_DIR$/src/misc/PipelineRunnable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="12" selection-start="1074" selection-end="1074" vertical-scroll-proportion="0.0">
+        <state line="48" column="13" selection-start="1557" selection-end="1557" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/processors/CompanyProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="24" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0">
+        <state line="28" column="32" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/filters/Filter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="19" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/filters/DNBCompanyBranchFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="25" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/decoders/CompanyToLineDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="12" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/decoders/CompanyToBase64Decoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="91" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/processor/Company.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="0" selection-start="3293" selection-end="3293" vertical-scroll-proportion="1.3039014">
+        <state line="17" column="32" selection-start="403" selection-end="412" vertical-scroll-proportion="0.51">
           <folding />
         </state>
       </provider>
