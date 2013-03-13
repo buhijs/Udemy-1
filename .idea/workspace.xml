@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5dc8487b-977c-49f3-93f0-aa6604c66bf6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/filters/DNBCompanyBranchFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/filters/Filter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/processors/CompanyProcessor.java" afterPath="$PROJECT_DIR$/src/processors/CompanyProcessor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/decoders/CompanyToBase64Decoder.java" afterPath="$PROJECT_DIR$/src/decoders/CompanyToBase64Decoder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/decoders/CompanyToLineDecoder.java" afterPath="$PROJECT_DIR$/src/decoders/CompanyToLineDecoder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/encoders/LineToCompanyEncoder.java" afterPath="$PROJECT_DIR$/src/encoders/LineToCompanyEncoder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/processor/Main.java" afterPath="$PROJECT_DIR$/src/processor/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/processor/ProcessorException.java" afterPath="$PROJECT_DIR$/src/processor/ProcessorException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/processor/ProcessorRunnable.java" afterPath="$PROJECT_DIR$/src/processor/ProcessorRunnable.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/processor/Company.java" afterPath="$PROJECT_DIR$/src/processor/Company.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Udemy.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363020564068" ignored="false" />
+    <file path="/Dummy.txt" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363134749393" ignored="false" />
     <file path="/CompanyFileWriter.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1361247868505" ignored="false" />
     <file path="/CompanyRunnable.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1361760600253" ignored="false" />
     <file path="/CompanyFileReader.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1361260371085" ignored="false" />
@@ -84,6 +76,7 @@
     <file path="/CompanyToLineDecoder.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362963217665" ignored="false" />
     <file path="/LineToCompanyEncoder.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362963251186" ignored="false" />
     <file path="/CompanyToBase64Decoder.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362963514044" ignored="false" />
+    <file path="/somedecoder.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363134099984" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,10 +163,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Company.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Company.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/processor/Company.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="66" selection-start="3247" selection-end="3247" vertical-scroll-proportion="0.0">
+            <state line="80" column="0" selection-start="3293" selection-end="3293" vertical-scroll-proportion="1.3039014">
               <folding />
             </state>
           </provider>
@@ -206,10 +199,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CompanyToBase64Decoder.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CompanyToBase64Decoder.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/decoders/CompanyToBase64Decoder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="91" selection-start="1121" selection-end="1121" vertical-scroll-proportion="1.0429448">
+            <state line="37" column="91" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -242,8 +235,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/processor/CompanyToSHA1Decoder.java" />
-        <option value="$PROJECT_DIR$/src/decoders/CompanyToSHA1Decoder.java" />
         <option value="$PROJECT_DIR$/src/processor/WriteProcessorRunnable.java" />
         <option value="$PROJECT_DIR$/src/decoders/Decoder.java" />
         <option value="$PROJECT_DIR$/src/encoders/Encoder.java" />
@@ -258,6 +249,8 @@
         <option value="$PROJECT_DIR$/src/encoders/LineToCompanyEncoder.java" />
         <option value="$PROJECT_DIR$/src/processors/CompanyProcessor.java" />
         <option value="$PROJECT_DIR$/src/decoders/CompanyToBase64Decoder.java" />
+        <option value="$PROJECT_DIR$/src/decoders/somedecoder.java" />
+        <option value="$PROJECT_DIR$/src/processor/Company.java" />
       </list>
     </option>
   </component>
@@ -351,7 +344,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -421,6 +414,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="misc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -494,7 +491,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -512,12 +509,12 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -655,14 +652,18 @@
       <created>1362741162282</created>
       <updated>1362741162282</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Adding filter, encdoer, decorder and processor abstraction">
+      <created>1363026447754</created>
+      <updated>1363026447754</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1984" y="-26" width="1414" height="939" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32643119" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32722834" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -670,17 +671,17 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32844934" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276492" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2375731" sideWeight="0.67356884" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1943128" sideWeight="0.97749835" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2375731" sideWeight="0.6727717" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1941392" sideWeight="0.97749835" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Regex" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32844934" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276492" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -723,7 +724,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="more changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding filter, encdoer, decorder and processor abstraction" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -744,6 +745,7 @@
     <MESSAGE value="Using a new framework to process files using encoder and decorer interfaces" />
     <MESSAGE value="Adding Exception Handling" />
     <MESSAGE value="more changes" />
+    <MESSAGE value="Adding filter, encdoer, decorder and processor abstraction" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -765,13 +767,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/decoders/Decoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="155" selection-end="278" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/encoders/Encoder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="52" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0">
@@ -782,13 +777,6 @@
     <entry file="file://$PROJECT_DIR$/src/processor/ProcessorException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="49" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/processor/Company.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="66" selection-start="3247" selection-end="3247" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -866,7 +854,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/decoders/CompanyToBase64Decoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="91" selection-start="1121" selection-end="1121" vertical-scroll-proportion="1.0429448">
+        <state line="37" column="91" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/processor/Company.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="0" selection-start="3293" selection-end="3293" vertical-scroll-proportion="1.3039014">
           <folding />
         </state>
       </provider>

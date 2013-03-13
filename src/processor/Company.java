@@ -78,13 +78,5 @@ public class Company {
         return company;
     }
 
-    public void inflate(String line){
-        //Split the line and process the contents
-        String[] components= line.split("\t");
-        this.setField1(components[0]);
-        this.setField2(components[1]);
-        this.setField3(components[2]);
-        this.setField4(components[3]);
 
-    }
 }
