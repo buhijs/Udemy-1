@@ -1,6 +1,6 @@
 package misc;
 
-import decoders.LineToCompanyDecoder;
+import decoders.CsvLineToCompanyDecoder;
 import encoders.CompanyToLineEncoder;
 import org.apache.commons.io.IOUtils;
 import processors.CompanyProcessor;
@@ -67,7 +67,7 @@ public class Main {
             String line;
             BufferedReader br = new BufferedReader(new InputStreamReader(reader));
             while((line = br.readLine()) != null){
-                Runnable worker = new PipelineRunnable(new LineToCompanyDecoder(),
+                Runnable worker = new PipelineRunnable(new CsvLineToCompanyDecoder(),
                                                             new CompanyToLineEncoder('\t'),
                                                             new CompanyProcessor(),
                                                             line,

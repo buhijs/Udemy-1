@@ -2,37 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5dc8487b-977c-49f3-93f0-aa6604c66bf6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/decoders/DecoderException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/encoders/EncoderException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/filters/FilterException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/processors/ProcessorException.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/misc/EOLStockCleaner.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/processor/WriteProcessorRunnable.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/decoders/CompanyToBase64Decoder.java" afterPath="$PROJECT_DIR$/src/encoders/CompanyToBase64Encoder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/decoders/CompanyToLineDecoder.java" afterPath="$PROJECT_DIR$/src/encoders/CompanyToLineEncoder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/encoders/LineToCompanyEncoder.java" afterPath="$PROJECT_DIR$/src/decoders/LineToCompanyDecoder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/processor/Company.java" afterPath="$PROJECT_DIR$/src/misc/Company.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/processor/Main.java" afterPath="$PROJECT_DIR$/src/misc/Main.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/processor/ProcessorException.java" afterPath="$PROJECT_DIR$/src/misc/PipelineException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/processor/ProcessorRunnable.java" afterPath="$PROJECT_DIR$/src/misc/PipelineRunnable.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/processor/WriteProcessorRunnable.java" afterPath="$PROJECT_DIR$/src/misc/WritePipelineRunnable.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/processors/CompanyProcessor.java" afterPath="$PROJECT_DIR$/src/processors/CompanyProcessor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/filters/DNBCompanyBranchFilter.java" afterPath="$PROJECT_DIR$/src/filters/DNBCompanyBranchFilter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/decoders/Decoder.java" afterPath="$PROJECT_DIR$/src/decoders/Decoder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/encoders/Encoder.java" afterPath="$PROJECT_DIR$/src/encoders/Encoder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/filters/Filter.java" afterPath="$PROJECT_DIR$/src/filters/Filter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/processors/Processor.java" afterPath="$PROJECT_DIR$/src/processors/Processor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/test.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/decoders/LineToCompanyDecoder.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/Main.java" afterPath="$PROJECT_DIR$/src/misc/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Udemy.iml" afterPath="$PROJECT_DIR$/Udemy.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Udemy.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207792234" ignored="false" />
+    <file path="/Dummy.txt" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363292398225" ignored="false" />
     <file path="/CompanyFileWriter.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1361247868505" ignored="false" />
     <file path="/CompanyRunnable.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1361760600253" ignored="false" />
     <file path="/CompanyFileReader.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1361260371085" ignored="false" />
     <file path="/blah.json" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1360827955777" ignored="false" />
-    <file path="/Main.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363218176689" ignored="false" />
+    <file path="/Main.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363286137085" ignored="false" />
     <file path="/Company.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362730937343" ignored="false" />
     <file path="/a.dummy" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363207811411" ignored="false" />
     <file path="$USER_HOME$/Documents/workspace/DemandbaseCleaningUtils/src/java/com/demandbase/etl/misc/EOLStockCleaner.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1362103137233" ignored="false" />
@@ -180,6 +164,8 @@
     <file path="/EncoderException.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363210042469" ignored="false" />
     <file path="/DecoderException.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363210034581" ignored="false" />
     <file path="/PipelineRunnable.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363218457083" ignored="false" />
+    <file path="/CSVLineToCompanyDecoder.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363220454210" ignored="false" />
+    <file path="/CsvLineToCompanyDecoder.java" changelist="5dc8487b-977c-49f3-93f0-aa6604c66bf6" time="1363293492232" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,6 +180,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -228,7 +215,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -239,19 +225,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LineToCompanyDecoder.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/decoders/LineToCompanyDecoder.java">
+      <file leaf-file-name="CsvLineToCompanyDecoder.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/decoders/CsvLineToCompanyDecoder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="62" selection-start="897" selection-end="897" vertical-scroll-proportion="0.0">
+            <state line="46" column="30" selection-start="1638" selection-end="1638" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Company.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/misc/Company.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="75" column="20" selection-start="3255" selection-end="3255" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Encoder.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/encoders/Encoder.java">
+      <file leaf-file-name="String.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/src.zip!/java/lang/String.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="61" selection-start="390" selection-end="390" vertical-scroll-proportion="0.0">
+            <state line="950" column="18" selection-start="36258" selection-end="36258" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CsvReader.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/javacsv.jar!/com/csvreader/CsvReader.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="51" selection-start="1723" selection-end="1723" vertical-scroll-proportion="-18.6">
               <folding />
             </state>
           </provider>
@@ -266,15 +272,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CompanyToLineEncoder.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/encoders/CompanyToLineEncoder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="11" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CompanyToBase64Encoder.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/encoders/CompanyToBase64Encoder.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -284,19 +281,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/misc/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="64" selection-start="3334" selection-end="3334" vertical-scroll-proportion="0.0">
+            <state line="74" column="73" selection-start="3417" selection-end="3417" vertical-scroll-proportion="0.54585797">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DNBCompanyBranchFilter.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DNBCompanyBranchFilter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/filters/DNBCompanyBranchFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="32" selection-start="403" selection-end="412" vertical-scroll-proportion="0.51">
+            <state line="17" column="32" selection-start="403" selection-end="412" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -320,15 +317,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FilterException.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/filters/FilterException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="55" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -347,8 +335,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/encoders/CompanyToBase64Encoder.java" />
-        <option value="$PROJECT_DIR$/src/misc/ProcessorRunnable.java" />
         <option value="$PROJECT_DIR$/src/misc/PipelineException.java" />
         <option value="$PROJECT_DIR$/src/encoders/EncoderException.java" />
         <option value="$PROJECT_DIR$/src/decoders/DecoderException.java" />
@@ -360,17 +346,19 @@
         <option value="$PROJECT_DIR$/src/filters/DNBCompanyBranchFilter.java" />
         <option value="$PROJECT_DIR$/src/encoders/CompanyToLineEncoder.java" />
         <option value="$PROJECT_DIR$/src/decoders/LineToCompanyDecoder.java" />
-        <option value="$PROJECT_DIR$/src/misc/Main.java" />
         <option value="$PROJECT_DIR$/src/misc/PipelineRunnable.java" />
         <option value="$PROJECT_DIR$/src/processors/CompanyProcessor.java" />
+        <option value="$PROJECT_DIR$/src/decoders/CSVLineToCompanyDecoder.java" />
+        <option value="$PROJECT_DIR$/src/misc/Main.java" />
+        <option value="$PROJECT_DIR$/src/decoders/CsvLineToCompanyDecoder.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2065" />
-    <option name="y" value="-51" />
-    <option name="width" value="1414" />
-    <option name="height" value="939" />
+    <option name="x" value="1680" />
+    <option name="y" value="-150" />
+    <option name="width" value="1920" />
+    <option name="height" value="1200" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -457,6 +445,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -489,11 +478,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="processors" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -508,64 +493,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="misc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Udemy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Udemy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="filters" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Udemy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Udemy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="encoders" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Udemy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Udemy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="decoders" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -585,7 +512,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -598,17 +524,17 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="vcs.Git" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/workspace/namesearch" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/javacsv.jar!/" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -754,32 +680,36 @@
       <created>1363134868923</created>
       <updated>1363134868923</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Abstracting out Exceptions to inherit from PipelineException class. Handle nulls in the data flow.">
+      <created>1363218703649</created>
+      <updated>1363218703649</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2065" y="-51" width="1414" height="939" extended-state="0" />
+    <frame x="1680" y="-150" width="1920" height="1200" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32722834" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32685184" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32844934" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32844934" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32722834" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32685184" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2375731" sideWeight="0.6727717" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32234433" sideWeight="0.97749835" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17342582" sideWeight="0.67314816" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32222223" sideWeight="0.97749835" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Regex" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32844934" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -822,7 +752,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="removind unwanted inflate method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Abstracting out Exceptions to inherit from PipelineException class. Handle nulls in the data flow." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -845,6 +775,7 @@
     <MESSAGE value="more changes" />
     <MESSAGE value="Adding filter, encdoer, decorder and processor abstraction" />
     <MESSAGE value="removind unwanted inflate method" />
+    <MESSAGE value="Abstracting out Exceptions to inherit from PipelineException class. Handle nulls in the data flow." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -866,72 +797,29 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/misc/PipelineException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/src.zip!/java/lang/Exception.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="19" selection-start="1271" selection-end="1271" vertical-scroll-proportion="0.3579639">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/decoders/Decoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="62" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/decoders/DecoderException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="46" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/encoders/EncoderException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="11" column="13" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/processors/ProcessorException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="53" selection-start="546" selection-end="546" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="19" column="53" selection-start="546" selection-end="546" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/encoders/Encoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="61" selection-start="390" selection-end="390" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="12" column="61" selection-start="390" selection-end="390" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/filters/FilterException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="55" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/decoders/LineToCompanyDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="62" selection-start="897" selection-end="897" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="11" column="55" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/encoders/CompanyToLineEncoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="11" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0">
+        <state line="23" column="9" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -939,13 +827,6 @@
     <entry file="file://$PROJECT_DIR$/src/encoders/CompanyToBase64Encoder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="13" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="64" selection-start="3334" selection-end="3334" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -971,9 +852,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/src.zip!/java/io/ByteArrayInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="11" selection-start="2836" selection-end="2836" vertical-scroll-proportion="1.832">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="950" column="18" selection-start="36258" selection-end="36258" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/javacsv.jar!/com/csvreader/CsvReader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="51" selection-start="1723" selection-end="1723" vertical-scroll-proportion="-18.6">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/filters/DNBCompanyBranchFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="32" selection-start="403" selection-end="412" vertical-scroll-proportion="0.51">
+        <state line="17" column="32" selection-start="403" selection-end="412" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/decoders/CsvLineToCompanyDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="30" selection-start="1638" selection-end="1638" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/Company.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="20" selection-start="3255" selection-end="3255" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="73" selection-start="3417" selection-end="3417" vertical-scroll-proportion="0.54585797">
           <folding />
         </state>
       </provider>
@@ -1042,7 +967,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>commons-io-2.3</last-edited>
+          <last-edited>lib</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
